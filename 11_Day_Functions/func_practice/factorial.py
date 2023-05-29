@@ -5,14 +5,14 @@ Call your function factorial, it takes a whole number
 as a parameter and it return a factorial of the number
 """
 
+
 def factorial(n):
     fact = 1
-    #fact *= n
-    for num in range(n): 
+    for num in range(n):
         num = num + 1
         if num > 0:
             fact *= num
     print(fact)
 
 
-factorial(1000)
+factorial(5)
