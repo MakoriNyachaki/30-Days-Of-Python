@@ -34,7 +34,7 @@ student = {
         "address": "4560-45000, Nyamokenye"
         }
 
-print (student)
+print(student)
 
 for r, v in student.items():
     print(f"{r}:{r}")
