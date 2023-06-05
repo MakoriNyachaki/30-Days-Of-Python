@@ -23,24 +23,24 @@ def multiply(x: number, *args: number) -> number:
         result *= arg
     return result
 
+
 try:
     x: number = input("Enter the value of the constant: ")
 
     y = int(input("How many values do you want to multiply? "))
 
 # Create a list of values you want to multiply with your constant
-    
     values = []
 
-    for num in  range(y):
+    for num in range(y):
         try:
             val: number = float(input('Enter a value: '))
-            #if isinstance(val, (int, float)):
+            # if isinstance(val, (int, float)):
             values.append(val)
-        except:
+        except TypeError:
             print("Not a number or float")
     print(values)
-except:
+except TypeError:
     pass
 # Implementing our partial functin
 
