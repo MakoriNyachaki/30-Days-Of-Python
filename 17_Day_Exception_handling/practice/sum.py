@@ -28,4 +28,5 @@ def get_sum(*args: Union[int, float]) -> Union[int, float]:
         return total
 
 
-main()
+if __name__ == '__main__':
+    main()
