@@ -39,12 +39,13 @@ try:
             values.append(val)
         except TypeError:
             print("Not a number or float")
-    print(values)
 except TypeError:
     pass
+
+else:
+    print(values)
+
 # Implementing our partial functin
-
-mul = partial(multiply, 5)
-res = mul(*values)
-
-print(res)
+    mul = partial(multiply, 5)
+    res = mul(*values)
+    print(res)
