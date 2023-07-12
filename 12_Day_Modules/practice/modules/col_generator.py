@@ -13,7 +13,7 @@ def main():
     print(generate_colors('hexA', 4))
     print(generate_colors('hexa', 3)) 
     print(generate_colors('hexa', 1))
-    print(generate_colors('rgb', 3)) 
+    print(generate_colors('RGB', 3))
     print(generate_colors('rgb', 1))
 
 
